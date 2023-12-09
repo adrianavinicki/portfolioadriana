@@ -16,3 +16,74 @@ export const projects = [
     link: "https://stringsandkeys.up.railway.app/",
   },
 ];
+
+export const skills = [
+  {
+    skill: "Javascript",
+    image: "",
+  },
+  {
+    skill: "NodeJs",
+    image: "",
+  },
+  {
+    skill: "Express",
+    image: "",
+  },
+  {
+    skill: "PostgreSQL",
+    image: "",
+  },
+  {
+    skill: "Sequelize",
+    image: "",
+  },
+  {
+    skill: "React",
+    image: "",
+  },
+  {
+    skill: "Redux",
+    image: "",
+  },
+  {
+    skill: "HTML",
+    image: "",
+  },
+  {
+    skill: "CSS",
+    image: "",
+  },
+  {
+    skill: "Git",
+    image: "",
+  },
+  {
+    skill: "GitHub",
+    image: "",
+  },
+  {
+    skill: "Finance",
+    image: "",
+  },
+  {
+    skill: "Team Building",
+    image: "",
+  },
+  {
+    skill: "Leadership",
+    image: "",
+  },
+  {
+    skill: "Decision-Making",
+    image: "",
+  },
+  {
+    skill: "Strategic-Thinking",
+    //image: "",
+  },
+  {
+    skill: "Project Planning",
+    // image: "",
+  },
+];

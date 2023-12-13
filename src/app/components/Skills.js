@@ -14,10 +14,10 @@ export default function Skills() {
           <p className="text-base leading-relaxed xl:w-2/3 lg:w-2/3 mx-auto">
             🌟 Why Me?: Versatility: I bring a rich blend of experience from the
             worlds of finance, business, and now technology. Problem-Solver: I
-            thrive in complex problem-solving scenarios, whether it's optimizing
-            financial operations or developing software solutions. Team Player:
-            Collaboration is at the core of my work ethic, and I love working
-            with diverse teams to achieve common goals.
+            thrive in complex problem-solving scenarios, whether it is
+            optimizing financial operations or developing software solutions.
+            Team Player: Collaboration is at the core of my work ethic, and I
+            love working with diverse teams to achieve common goals.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

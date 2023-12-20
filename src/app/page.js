@@ -1,3 +1,5 @@
+//import { useClient } from "next/data-client";
+"use client";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -6,6 +8,8 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 
 export default function Home() {
+  //const client = useClient();
+
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />

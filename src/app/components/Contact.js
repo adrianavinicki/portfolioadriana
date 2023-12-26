@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="container px-5 py-10 mx-auto" key="contact">
         <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
             {/*<h2 className="title-font font-semibold text-white tracking-widest text-xs">*/}
@@ -45,7 +45,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
+          netlify="true"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"

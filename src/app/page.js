@@ -12,12 +12,26 @@ export default function Home() {
 
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
+      <div>
+        <div>
+          <Navbar />
+        </div>
+        <div key="about">
+          <About />
+        </div>
+        <div key="project">
+          <Projects />
+        </div>
+        <div key="skill">
+          <Skills />
+        </div>
+        <div key="testimonial">
+          <Testimonials />
+        </div>
+        <div key="contact">
+          <Contact />
+        </div>
+      </div>
     </main>
   );
 }
